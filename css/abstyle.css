@@ -1,0 +1,469 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    /* background-color: #E5E5E5; */
+}
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header{
+    background-color: #ffffff !important;
+}
+nav{
+    display:grid;
+    grid-template-columns: 2fr auto;
+    grid-template-rows: auto;
+    
+
+}
+.container{
+    position: relative;
+    width: 90%;
+    margin: auto;
+    
+}
+.logo{
+    position: relative;
+    height:auto;
+    width: 35%;
+    margin: 2px 0;
+}
+
+a{
+    text-decoration: none;
+    border-right: 1px solid grey ;
+    line-height:20px;
+    color: rgba(48, 52, 51, 0.7);
+    padding-right: 10px;
+    text-transform: uppercase;
+    font-size: 0.5rem; 
+}
+.items{
+    font-size: 18px;
+    margin-top: 18px;
+    
+    
+}
+.linkd{
+    border-right: none;
+
+}
+.linkss{
+    color: #D8A235;
+}
+
+.first{
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    font-size: 24px;
+    color: white;
+    line-height: 0.01rem;
+    
+}
+#first-inner{
+    padding: 10% 0px 0px 10%;
+    line-height: 0.5em;
+}
+
+#first-inner h4{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#gold-area{
+    width: 100%;
+    height: 35px;
+    background-color: #D8A235;
+}
+
+#second{
+    background-color: #D8A235;
+}
+section{
+    background-color: #E5E5E5;
+}
+#tri{
+    position:relative;
+    padding-left:50%;
+    margin-top: 3.5%;
+    width: 2%;
+    z-index: -1; 
+    /* -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg); */
+   
+} 
+main{
+    background-color: #ffffff!important;
+}
+.card{
+    background-color: #ffffff; 
+    text-align: center;
+    /* padding-bottom: 2%; */
+    margin-top: 3%;
+}
+#history-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 60%;
+    margin: auto;
+    background-color: #ffffff; 
+    text-align: center;
+    
+}
+.container{
+    width: 100%;
+} 
+.card p{
+    text-align: center;
+    font-size: 18px;
+}
+#ourHead{
+    color: #D8A235;
+   
+}
+
+
+.card1{
+    display: grid;
+    grid-template-rows: 1fr 1fr; 
+    background: #FCFCFC;
+    /* grid-template-columns: auto auto; */
+}
+.mission{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#hands{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-right: 20%;
+}
+#cardA{
+     padding-left: 10%;
+     padding-right: 15%;
+
+}
+#cardA p{
+    font-size: 18px;
+    margin-top: -10%;
+    color: rgba(48, 52, 51, 0.57);
+    line-height: 25px;
+    letter-spacing: 0.02em;
+}
+#cardA h5{
+    font-weight: 500;
+font-size: 25px;
+line-height: 37px;
+color: rgba(48, 52, 51, 0.57);
+text-transform: uppercase;
+}
+span{
+    color: #D8A235;
+}
+
+#cardA h6{
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #D8A235;
+    margin-top: -3%;
+}
+
+.vision{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#compass{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-right: 20%;
+}
+#cardB{
+    padding-left: 10%;
+    padding-right: 15%;
+
+}
+#cardB p{
+    font-size: 18px;
+    margin-top: -10%;
+    color: rgba(48, 52, 51, 0.57);
+    line-height: 25px;
+    letter-spacing: 0.02em;
+}
+#cardB h5{
+    font-weight: 500;
+font-size: 25px;
+line-height: 37px;
+color: rgba(48, 52, 51, 0.57);
+text-transform: uppercase;
+}
+span{
+    color: #D8A235;
+}
+
+#cardB h6{
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #D8A235;
+    margin-top: -3%;
+}
+/* .container{
+     width: 70%; 
+} */
+.TEAM-SECTION{
+    /* width: 70%; */
+    background-color: #FFFFFF;
+}
+.container{
+    width: 70%;
+}
+.team{
+    background: #ffffff;
+}
+span{
+    color: #D8A235;
+}
+.team h5{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+   color:  rgba(48, 52, 51, 0.7);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: center;
+}
+#teampics{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1rem;
+    /* width: 70%; */
+    /* width: 80%; */
+}
+
+#cardC{
+    position: relative;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    
+
+}
+#cardC img{
+    margin-left: 20%;
+    margin-top: 5%;
+     max-width:50%;
+     height: auto;
+
+}
+#cardC h5{
+    margin-top: -0.1%;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: #303433;
+}
+#cardC h6{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 20px;
+   margin-top: -12%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: rgba(48, 52, 51, 0.7);
+    
+}
+#cardC i{
+    margin-left: 15%;
+    font-size: 18px;
+    /* padding-top: -10%; */
+    
+    color: rgba(48, 52, 51, 0.7);
+}
+
+
+
+#cardD{
+    position: relative;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    
+
+}
+#cardD img{
+    margin-left: 5%;
+    margin-top: 5%;
+     max-width:50%;
+     height: auto;
+
+}
+#cardD h5{
+    margin-top: -0.1%;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: #303433;
+}
+#cardD h6{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 20px;
+   margin-top: -12%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: rgba(48, 52, 51, 0.7);
+    
+}
+#cardD i{
+    margin-left: 10%;
+    font-size: 18px;
+    /* padding-top: -10%; */
+    
+    color: rgba(48, 52, 51, 0.7);
+}
+#cardE{
+    position: relative;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    
+
+}
+#cardE img{
+    margin-left: 5%;
+    margin-top: 5%;
+     max-width:50%;
+     height: auto;
+
+}
+#cardE h5{
+    margin-top: -0.1%;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: #303433;
+}
+#cardE h6{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 20px;
+   margin-top: -12%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: rgba(48, 52, 51, 0.7);
+    
+}
+#cardE i{
+    margin-left: 10%;
+    font-size: 18px;
+    /* padding-top: -10%; */
+    
+    color: rgba(48, 52, 51, 0.7);
+}
+#cardF{
+    position: relative;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    
+
+}
+#cardF img{
+    margin-left: 5%;
+    margin-top: 5%;
+     max-width:50%;
+     height: auto;
+
+}
+#cardF h5{
+    margin-top: -0.1%;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: #303433;
+}
+#cardF h6{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 20px;
+   margin-top: -12%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: rgba(48, 52, 51, 0.7);
+    
+}
+#cardF i{
+    margin-left: 10%;
+    font-size: 18px;
+    /* padding-top: -10%; */
+    
+    color: rgba(48, 52, 51, 0.7);
+}
+footer{
+    background: #CCCCCC !important;
+    box-shadow: inset 0px 15px 12px rgba(0, 0, 0, 0.25);
+    margin-top: 10%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    /* position: relative;
+    height: 5%; */
+}
+
+#footer-inner{
+    display: grid;
+    grid-template-columns:  auto  1fr;
+    grid-column-gap: 4em;
+    padding-top: 2%;
+    
+    margin-top: -1%;
+    /* position: relative;
+    height: 5%; */
+} 
+
+#footer-inner p{
+    padding-left: 50px;
+    font-size: 15px;
+    /* margin-top: 20%; */
+}
+
+.icon-section i{
+    border: 1px solid black;
+    border-radius: 50%;
+    color: black;
+    font-size: 10px;
+    
+    padding: 1% 1%;
+}  
+
+#terms{
+    color: rgba(48, 52, 51, 0.41);
+    padding-left: 50px;
+    font-size: 12px;
+} 

@@ -1,0 +1,238 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    /* background-color: #E5E5E5; */
+}
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header{
+    background-color: #ffffff !important;
+}
+nav{
+    display:grid;
+    grid-template-columns: 2fr auto;
+    grid-template-rows: auto;
+    
+
+}
+.container{
+    position: relative;
+    width: 90%;
+    margin: auto;
+    
+}
+.logo{
+    position: relative;
+    height:auto;
+    width: 25%;
+    margin: 2px 0;
+}
+
+a{
+    text-decoration: none;
+    border-right: 1px solid grey ;
+    line-height:20px;
+    color: rgba(48, 52, 51, 0.7);
+    padding-right: 10px;
+    text-transform: uppercase;
+    font-size: 0.5rem; 
+}
+.items{
+    font-size: 18px;
+    margin-top: 18px;
+    
+    
+}
+.linkd{
+    border-right: none;
+    color: #D8A235;
+}
+.first{
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    font-size: 24px;
+    color: white;
+    line-height: 0.01rem;
+    
+}
+
+#first-inner{
+    padding: 10% 0px 0px 10%;
+    line-height: 0.5em;
+}
+
+#first-inner h4{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#gold-area{
+    width: 100%;
+    height: 30px;
+    background-color: #D8A235;
+}
+
+#second{
+    background-color: #D8A235;
+}
+section{
+    background-color: #E5E5E5;
+}
+#tri{
+    position:relative;
+    padding-left:50%;
+    margin-top: 3%;
+    width: 2%;
+    /* z-index: -1; */
+    /* -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    */
+} 
+main{
+    width: 100%;
+    background-color:  white;
+    padding-top: 7%;
+}
+#container{
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+#title{
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-gap: 0.1;
+    
+}
+span{
+    color: #D8A235;
+}
+p{
+   font-size: 15px; 
+   
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-bottom: 5%;
+    
+}
+.card1{
+    background-color: #ffffff;
+    border: 1px solid lightgrey;
+    border-radius: 5px 0px 0px 5px;
+    /* box-shadow:  24px 0px 0px rgba(231, 230, 230, 0.07); */
+    
+}
+h5{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-left: 70px; 
+    /* margin-left: 40px; */
+}
+#form{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    margin-top: -40px; 
+    padding: 25px 0px 30px 25px;
+    margin-right: 80px;
+    grid-row-gap: 1rem;
+    border-radius: 2px solid;
+   
+    margin-left: 40px;
+    /* margin-bottom: 80px; */
+}
+.btn{
+    text-transform: capitalize;
+    border: 1px solid #D8A235;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #D8A235;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+input {
+    /* position: relative; */
+    /* height: 20px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    /* border-radius: 2px; */
+   
+}
+
+#hi{
+    padding-top: 15px;
+    padding-bottom: 60px;  
+}
+
+.card2{
+    /* box-shadow: 24px 0px 24px rgba(212, 210, 210, 0.07); */
+    border-radius: 1px solid;
+    border-radius: 0px 5px 5px 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/bg.png");
+}
+.info{
+    padding-left: 50px;
+    color: #ffffff;
+}
+.info p{
+    /* padding-left: 15px; */
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows:3fr;
+    padding-right: 50%;
+    /* grid-column-gap:0.1rem; */
+}
+#icon{
+    padding-top: 5%;
+
+}
+#icon i{
+    border: 1px solid white;
+    border-radius: 50%;
+    /* padding-right: 1%; */
+    padding: 1% 2%;
+    /* color: black; */
+    /* font-size: 50%; */
+} 
+footer{
+    background: #CCCCCC;
+    box-shadow: inset 0px 15px 12px rgba(0, 0, 0, 0.25);
+    /* margin-top: -3%; */
+    padding-bottom: 3%;
+    /* position: relative;
+    height: 5%; */
+}
+#footer-inner{
+    display: grid;
+    grid-template-columns:  auto  1fr;
+    grid-column-gap: 4em;
+    padding-top: 2%;
+    /* position: relative;
+    height: 5%; */
+}
+#footer-inner p{
+    /* padding-left: 50px; */
+    font-size: 15px;
+    /* margin-top: 20%; */
+}
+.icon-section i{
+    border: 1px solid black;
+    border-radius: 50%;
+    color: black;
+    font-size: 50%;
+    padding: 1% 1%;
+} 
+
+#terms{
+    color: rgba(48, 52, 51, 0.41);
+    font-size: 12px;
+}
